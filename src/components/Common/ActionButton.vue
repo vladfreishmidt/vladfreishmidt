@@ -1,5 +1,7 @@
 <template>
-  <a href="/CV_Vladyslav_Freishmidt.pdf" target="_blank" @click="go">Resume</a>
+  <button href="/CV_Vladyslav_Freishmidt.pdf" target="_blank" @click="go">
+    Resume
+  </button>
 </template>
 
 <script>

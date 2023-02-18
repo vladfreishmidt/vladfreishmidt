@@ -1,10 +1,8 @@
 <template>
-  <div class="wrapper">
-    <div>
-      <a href="#">
-        <app-logo />
-      </a>
-    </div>
+  <header>
+    <a href="#">
+      <app-logo />
+    </a>
     <nav>
       <ul>
         <li v-for="link in navLinks" :key="link.text">
@@ -15,7 +13,7 @@
       </ul>
     </nav>
     <action-button />
-  </div>
+  </header>
 </template>
 
 <script>
@@ -40,9 +38,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.wrapper {
-  background-color: #0f0e0e;
-}
-</style>
